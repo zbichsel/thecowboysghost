@@ -1,0 +1,17 @@
+.gallery {
+    background-color: #EEE;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.gallery-cell {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+}
+
+.gallery-cell img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
